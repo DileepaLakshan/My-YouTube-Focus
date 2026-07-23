@@ -1,0 +1,14 @@
+/* Hide the Shorts button in the Sidebar */
+ytd-guide-entry-renderer a[title="Shorts"] {
+    display: none !important;
+}
+
+/* Hide the Shorts shelf on the Home feed */
+ytd-rich-shelf-renderer[is-shorts] {
+    display: none !important;
+}
+
+/* Hide the Shorts video player interface if you accidentally click a link */
+ytd-shorts {
+    display: none !important;
+}
