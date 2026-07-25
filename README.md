@@ -40,4 +40,8 @@ Watch your feed clean itself up automatically!
 ## License 📄
 This project is open-source and free to use.
 
+<img width="3508" height="1716" alt="extenction" src="https://github.com/user-attachments/assets/78694f20-d432-495f-bea1-bedcd21f8694" />
+
+<img width="1737" height="965" alt="Screenshot 2026-07-25 112949" src="https://github.com/user-attachments/assets/eca388e0-442e-4f4b-8130-4b8641eb5d81" />
+<img width="401" height="595" alt="Screenshot 2026-07-25 113013" src="https://github.com/user-attachments/assets/e5af919a-b514-4252-8609-fa70a3052b0e" />
 
