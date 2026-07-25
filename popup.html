@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My YouTube Focus</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My YouTube Focus</h1>
+            <p>Customize your distraction-free experience.</p>
+        </header>
+        
+        <section class="controls">
+            <div class="toggle-container">
+                <label for="extension-toggle">Enable Extension</label>
+                <label class="switch">
+                    <input type="checkbox" id="extension-toggle" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            
+            <div class="toggle-container">
+                <label for="shorts-toggle">Hide YouTube Shorts</label>
+                <label class="switch">
+                    <input type="checkbox" id="shorts-toggle" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </section>
+
+        <section class="keywords-section">
+            <h2>Blocked Keywords</h2>
+            <div class="input-group">
+                <input type="text" id="keyword-input" placeholder="Add a keyword (e.g., minecraft)">
+                <button id="add-btn">Add</button>
+            </div>
+            <ul id="keyword-list">
+                <!-- Keywords will be populated here by popup.js -->
+            </ul>
+        </section>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
